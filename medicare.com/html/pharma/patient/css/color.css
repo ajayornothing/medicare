@@ -1,0 +1,34 @@
+.health-color,.health-colorhover:hover,.health-banner-btn:hover,.health-banner-form form input[type="submit"],.banner-form-title,.health-liststyle-one li:before,
+li:hover .health-team-simple-text h2 a,.health-callaction-baar input[type="submit"],li:hover .health-blog-grid-text h2 a,li:hover .health-grid-hover-btn,
+.widget_newsletter form ul li input[type="submit"],li:hover .health-blog-large-btn,li:hover .health-blog-large-text h2 a,.health-main-content .widget_recent_news section:hover h6 a,
+.health-department-medium li:hover figure a i,.health-department-services li i,.health-department-form ul li input[type="submit"]:hover,.health-team-grid li:hover .health-team-grid-text h2 a,
+li:hover .health-team-medium-btn,.medium-team-social li:hover a,li:hover .health-team-medium-text h2 a,.health-team-medium figure i,.health-error-page h2 i,.health-error-btn,
+.health-result-text .health-search-link,.health-contact-form input[type="submit"]:hover,li:hover .health-plain-btn,.health-shop-links a:hover,.health-shop-summery .health-modern-btn:hover {
+    color: #00a3c8;
+}
+
+.health-bgcolor,.health-bgcolorhover:hover,.health-headinfo i,.health-main-navigation,.health-navigation .children,.health-banner-form form,.health-select select,.health-select:after,
+.simple-team-social,.health-team-simple figure figcaption:before,.health-gallery-simple figure figcaption:before,.health-gallery-filterable ul li a.is-checked,
+.health-gallery-filterable ul li:hover a,.slick-dots li.slick-active button,.health-testimonial-slider i,.health-light-transparent,.health-grid-hover-btn,
+.health-blog-grid figure:before,.health-blog-large-text time,.health-blog-large-btn,.health-blog-large figure a:before,.health-pagination ul li span.current,
+.health-pagination ul li:hover a,.health_widget_title h2:before,.health-main-content .widget_recent_news figure:before,.widget_gallery a:before,.widget_department ul li:hover a,
+blockquote i,.comment-respond form p input[type="submit"]:hover,.health-department-grid li:hover figure i,.health-department-grid-btn,.health-department-medium li figure a i,
+.health-department-medium figure:before,.health-department-medium figure a:before,.health-department-form ul li input[type="submit"],.grid-team-social li a:hover,
+.health-team-grid figure a:before,.health-team-medium-btn,.health-team-medium figure a:before,.health-search-text form label input[type="submit"],.health-search-text form input[type="submit"],
+.health-contact-form input[type="submit"],.health-appointment-bord ul.schedule-days li,.available-btn,.health-simple-gallery figure > a > i:hover,.health-plain-btn,.health-shop-links a,
+.health-modern-btn,.health-shop-summery .health-modern-btn {
+    background-color: #00a3c8;
+}
+
+.health-border-color,.health-border-colorhover:hover,.health-banner-btn,.slick-dots button,.health-blog-large-btn,.health-department-grid-text,
+.health-department-form ul li input[type="submit"],.grid-team-social li a:hover,.health-team-medium-btn,.health-plain-btn {
+    border-color: #00a3c8;
+}
+
+.simple-team-social:before {
+	border-bottom-color: #00a3c8;
+}
+
+.health-testimonial-wrap:before {
+	border-top-color: #00a3c8;
+}

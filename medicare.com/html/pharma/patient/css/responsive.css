@@ -1,0 +1,166 @@
+/*	Media 768Px Start */
+@media (min-width: 768px) and (max-width: 1024px) {
+	a.menu-link { color: #fff; }
+	.menu-link span { border-bottom: solid 3px #fff; border-top: double 10px #fff; float: right; height: 17px; margin: 0 5px 0px 0; width: 30px; }
+	.js .menu > ul ul.active { margin: 0; max-height: 55em; padding: 0; }
+	.menu.active { max-height: 100em; width: 100%; }
+	span.has-subnav {
+	  display: none; font-size: 1em; position: absolute; right: 0; padding: 0; top: 0; cursor: pointer; text-align: center;
+	  line-height: 2.7; font-size: 20px; }
+	.menu.active { width: 260px;}
+	.menu,  .menu ul ul { margin: 0; max-height: 0; overflow: hidden;}
+	span.has-subnav,a.menu-link { display: block;}
+	.children li a { background-color: #fff;}
+	.health-navigation { z-index: 9999; border-radius: 0px; position: absolute; background-color: #fff; border-top: none; border-bottom: none; left: 0px; top: 100%; margin: 0px;}
+	a.menu-link { text-align: left; float: left; font-weight: bold; font-size: 22px; line-height: 2.2; margin: 28px 0px 23px 20px; }
+	.health-navigation .children { margin: 0px; float: left; width: 100%; position: relative; opacity: 1; visibility: visible; background-color: transparent; top: 0; padding: 0px; border: none; }
+	.health-navigation .children {
+		-webkit-transform: translate(0px);
+		   -moz-transform: translate(0px);
+		    -ms-transform: translate(0px);
+		     -o-transform: translate(0px);
+		        transform: translate(0px);
+	}
+	.health-navigation .children .children { left: 0px; margin: 0px; }
+	.health-navigation > li > a { float: left; width: 100%; padding: 20px 20px 22px 20px; color: #555555; line-height: 14px;}
+	.health-navigation li { width: 100%; float: left; margin: 0px; position: relative; }
+	.health-navigation .children li a { color: #333; }
+	.children .children { left: 0px;}
+	.health-navigation > li { padding: 0px;}
+	.health-navigation > li:first-child { padding-left: 0px;}
+	.health-navigation > ul > li a { color: #333; } .health-navigation > ul > li { width: 100%; }
+	.health-navigation > ul > li:hover > a:before, .health-navigation > ul > li.active > a:before { display: none; }
+	.health-navigation > ul > li > a { padding: 10px 0px; }
+	.health-navigation .children li { padding: 4px 0px 8px 0px; }
+	.health-navigation .children li a { padding: 8px 0px 1px 0px; border-top: 1px solid #eee; }
+	.health-navigation > ul > li { padding: 0px; border-bottom: 1px solid #eee; }
+	.health-navigation > ul { padding: 0px 18px; } .children span.has-subnav { top: 5px; } .health-navigation .children > li > a:before { display: none; }
+	.health-navigation > ul > li > a:after { display: none; }
+	/* Header */
+	.health-header-main .col-md-3,.health-header-main .col-md-9 { float: left; width: 100%; flex: 0 0 100%; max-width: 100%; }
+	.health-logo { width: 100%; text-align: center; } .health-headinfo li { padding: 10px 7px 20px 7px; }
+	.health-headinfo { float: right; width: 100%; text-align: center; }
+	.health-headinfo li { padding: 10px 7px 20px 7px; float: none; display: inline-block; }
+	/* Banner */
+	.health-banner-caption p,.health-banner-caption a,.health-banner-form { display: none; }
+
+
+	/* Main Grid */
+	.health-main-content .col-md-4,.health-main-content .col-md-3 { float: none; display: inline-block; vertical-align: top; margin-right: -4px; width: 50%; flex: 0 0 50%;
+    max-width: 50%; }
+	.health-main-content .col-md-7,.health-main-content .col-md-5,.health-main-content .col-md-6 { width: 100%; float: left; flex: 0 0 100%; max-width: 100%; }
+	.col-md-12,.health-main-content .col-md-8,.health-main-content .col-md-9 { float: left; width: 100%; max-width: 100%; flex: auto; }
+	/* Content */
+	
+
+	/* Footer */
+	.health-footer-widget .widget { float: none; display: inline-block; margin-right: -4px; vertical-align: top; max-width: 50%; flex: auto; }
+	.health-footer-widget:before { display: none; }
+
+
+}
+
+/* Media 420Px Start */
+@media (max-width: 767px) {
+
+	a.menu-link { color: #fff; }
+	.menu-link span { border-bottom: solid 3px #fff; border-top: double 10px #fff; float: right; height: 17px; margin: 0 5px 0px 0; width: 30px; }
+	.js .menu > ul ul.active { margin: 0; max-height: 55em; padding: 0; }
+	.menu.active { max-height: 100em; width: 100%; }
+	span.has-subnav {
+	  display: none; font-size: 1em; position: absolute; right: 0; padding: 0; top: 0; cursor: pointer; text-align: center;
+	  line-height: 2.7; font-size: 20px; }
+	.menu.active { width: 260px;}
+	.menu,  .menu ul ul { margin: 0; max-height: 0; overflow: hidden;}
+	span.has-subnav,a.menu-link { display: block;}
+	.children li a { background-color: #fff;}
+	.health-navigation { z-index: 9999; border-radius: 0px; position: absolute; background-color: #fff; border-top: none; border-bottom: none; left: 0px; top: 100%; margin: 0px;}
+	a.menu-link { text-align: left; float: left; font-weight: bold; font-size: 22px; line-height: 2.2; margin: 28px 0px 23px 20px; }
+	.health-navigation .children { margin: 0px; float: left; width: 100%; position: relative; opacity: 1; visibility: visible; background-color: transparent; top: 0; padding: 0px; border: none; }
+	.health-navigation .children {
+		-webkit-transform: translate(0px);
+		   -moz-transform: translate(0px);
+		    -ms-transform: translate(0px);
+		     -o-transform: translate(0px);
+		        transform: translate(0px);
+	}
+	.health-navigation .children .children { left: 0px; margin: 0px; }
+	.health-navigation > li > a { float: left; width: 100%; padding: 20px 20px 22px 20px; color: #555555; line-height: 14px;}
+	.health-navigation li { width: 100%; float: left; margin: 0px; position: relative; }
+	.health-navigation .children li a { color: #333; }
+	.children .children { left: 0px;}
+	.health-navigation > li { padding: 0px;}
+	.health-navigation > li:first-child { padding-left: 0px;}
+	.health-navigation > ul > li a { color: #333; } .health-navigation > ul > li { width: 100%; }
+	.health-navigation > ul > li:hover > a:before, .health-navigation > ul > li.active > a:before { display: none; }
+	.health-navigation > ul > li > a { padding: 10px 0px; }
+	.health-navigation .children li { padding: 4px 0px 8px 0px; }
+	.health-navigation .children li a { padding: 8px 0px 1px 0px; border-top: 1px solid #eee; }
+	.health-navigation > ul > li { padding: 0px; border-bottom: 1px solid #eee; }
+	.health-navigation > ul { padding: 0px 18px; } .children span.has-subnav { top: 5px; } .health-navigation .children > li > a:before { display: none; }
+	.health-navigation > ul > li > a:after { display: none; }
+	/* Header */
+	.health-header-main .col-md-3,.health-header-main .col-md-9 { float: left; width: 100%; flex: 0 0 100%; max-width: 100%; }
+	.health-logo { width: 100%; text-align: center; } .health-headinfo li { padding: 10px 7px 20px 7px; }
+	.health-headinfo { float: right; width: 100%; text-align: center; }
+	.health-headinfo li { padding: 10px 7px 20px 7px; float: none; display: inline-block; }
+	.health-top-strip { text-align: center; } .health-top-strip p { width: 100%; margin-bottom: 6px; } .health-strip-social { float: none; display: inline-block; }
+	/* Banner */
+	.health-banner-caption { display: none; }
+
+	/* Main Grid */
+	.health-main-content .col-md-4,.health-main-content .col-md-3 { float: none; display: inline-block; vertical-align: top; margin-right: -4px; width: 50%; flex: 0 0 50%; max-width: 50%; }
+	.health-main-content .col-md-7,.health-main-content .col-md-5,.health-main-content .col-md-6 { width: 100%; float: left; flex: 0 0 100%; max-width: 100%; }
+	.col-md-12,.health-main-content .col-md-8,.health-main-content .col-md-9 { float: left; width: 100%; max-width: 100%; flex: auto; }
+
+	/* Content */
+	.health-callaction-baar input[type="text"] { width: 100%; font-size: 20px; } .health-callaction-baar input[type="submit"] { width: 50%; margin-top: 14px; }
+	.health-appointment-bord { display: none; }
+	.health-pagination ul li { margin-bottom: 15px; }
+	.health-admin-post figure ~ .health-admin-post-text { padding-left: 0px; float: left; width: 100%; padding-top: 15px; }
+	.comment-list figure ~ .text-holder { padding-left: 0px; float: left; width: 100%; padding-top: 15px; margin-left: 0px; }
+	.comment-list .children {padding-left: 0px; }
+	.comment-respond form p,.health-department-medium figure { width: 100%; }
+	.health-department-medium figure ~ .health-department-list-text { margin-left: 0px; float: left; width: 100%; }
+	.health-department-medium figure:before { display: none; }
+	.health-department-medium figure a i { top: auto; bottom: -30px; right: 0px; }
+	.widget_department ul li { width: 50%; }
+	.health-shop-thumb,.health-shop-summery { width: 100%; } .health-shop-summery { padding-left: 0px; }
+	.health-team-medium figure ~ .health-team-medium-text { margin-left: 0px; float: left; width: 100%; } .health-team-medium figure { width: 100%; }
+	.health-search-result ul li figure ~ .health-result-text { margin-left: 0px; float: left; width: 100%; padding-left: 0px; } .health-search-result ul li figure { width: 100%; }
+	.health-error-page { width: 100%; padding: 70px 50px; }
+	.health-liststyle-one li { width: 100%; }
+
+	/* Footer */
+	.health-footer-widget .widget { float: none; display: inline-block; margin-right: -4px; vertical-align: top; max-width: 50%; flex: auto; }
+	.health-copyright { text-align: center; } .health-copyright p { width: 100%; margin-bottom: 6px; } .back-top { float: none; display: inline-block; }
+	.health-footer-widget:before { display: none; }
+	
+}
+
+/* Media 300Px Start */
+@media (max-width: 540px) {
+	/* Main Grid */
+	.health-main-content .col-md-4,.health-main-content .col-md-3 { margin-right: 0px; width: 100%; flex: 0 0 100%; max-width: 100%; }
+	.health-footer-widget .widget { margin-right: 0px; flex: 0 0 100%; max-width: 100%; }
+	/* Content */
+	.health-department-form ul li { width: 100%; }
+	.health-blog-large-text time ~ .health-blog-large-text-left { float: left; margin-left: 0px; margin-top: 10px; }
+	.health-prenxt-post ul li { width: 100%; margin-bottom: 20px; } .health-prenxt-post ul li:last-child { margin-bottom: 0px; }
+	.health-contact-form ul li { width: 100%; }
+
+	/* Footer */
+	.health-footer-widget .widget { margin-right: 0px; max-width: 100%; }
+}
+
+/* Media 940Px Start */
+@media screen and (min-width: 991px) and (max-width: 1054px) {
+	
+}
+
+/* Media 940Px Start */
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+	.health-banner-caption-left { padding: 65px 0px 60px 0px; }
+	.health-banner-caption h1 { font-size: 30px; }
+	.hide-thumnb { display: block; } .hide-thumnb1 { display: none; }
+}
